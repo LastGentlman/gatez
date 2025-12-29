@@ -23,7 +23,7 @@
             <div class="p-6 border border-gray-800 rounded-lg hover:border-cyan-500/50 transition-colors">
                 <h3 class="text-xl font-bold mb-2">Onboarding</h3>
                 <p class="text-gray-400">Master the art of moving assets to ZkSync, Starknet, and Scroll without burning your portfolio on gas fees.</p>
-                <div class="mt-4 text-sm text-cyan-500 cursor-pointer hover:underline">View Comparative Guides &rarr;</div>
+                <a href="/onboarding" class="mt-4 text-sm text-cyan-500 cursor-pointer hover:underline block">View Comparative Guides &rarr;</a>
             </div>
             <div class="p-6 bg-gray-900/50 border border-gray-800 rounded-lg">
                 <h3 class="text-xl font-bold mb-2">Live Fee Monitor</h3>
@@ -105,11 +105,11 @@ mod HelloStarknet {'{'}
             <div class="h-px bg-gray-800 flex-grow"></div>
         </div>
         <div class="text-center p-12 border border-dashed border-gray-700 rounded-lg">
-            <h3 class="text-2xl font-bold mb-4">Ecosystem Insights</h3>
+            <h3 class="text-2xl font-bold mb-4">Ecosystem Insights & News</h3>
             <p class="text-gray-400 mb-6">Organic activity matrix. Quality over Quantity.</p>
-            <div class="inline-block px-4 py-2 bg-gray-800 rounded text-cyan-400 font-bold">
-                COMING SOON
-            </div>
+             <a href="/news" class="inline-block px-6 py-2 border border-cyan-500 text-cyan-500 hover:bg-cyan-500 hover:text-black transition-colors rounded">
+                View Latest News
+            </a>
         </div>
     </section>
 </div>

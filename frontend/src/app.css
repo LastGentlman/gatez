@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+:root {
+  --color-bg-primary: #0a0a0a;
+  --color-text-primary: #e5e5e5;
+  --color-accent-cyan: #00f0ff;
+  --color-accent-purple: #bc13fe;
+}
+
+body {
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  font-family: 'Courier New', Courier, monospace; /* Monospace typography as per strategy */
+}

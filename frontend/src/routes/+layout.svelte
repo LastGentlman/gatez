@@ -2,27 +2,27 @@
 	import '../app.css';
 </script>
 
-<div class="flex flex-col min-h-screen bg-black text-gray-200 font-mono">
-	<header class="border-b border-gray-800 p-4">
-		<div class="container mx-auto flex justify-between items-center">
-			<a href="/" class="text-2xl font-bold tracking-tighter">
-				GATE_<span class="text-cyan-400">Z</span>
+<div class="flex flex-col min-h-screen">
+	<header class="glass-nav fixed top-0 w-full z-50">
+		<div class="container mx-auto flex justify-between items-center px-4 py-4">
+			<a href="/" class="text-2xl font-display font-semibold tracking-tighter text-text-main">
+				GATE_<span class="text-violet-zk">Z</span>
 			</a>
 			<nav class="hidden md:flex space-x-6">
-				<a href="#bridge" class="hover:text-cyan-400 transition-colors">The Bridge</a>
-				<a href="#node" class="hover:text-cyan-400 transition-colors">The Node</a>
-				<a href="#yield" class="hover:text-cyan-400 transition-colors">The Yield</a>
-				<a href="#code" class="hover:text-cyan-400 transition-colors">The Code</a>
-				<a href="#drop" class="hover:text-cyan-400 transition-colors">The Drop</a>
+				<a href="#bridge" class="text-text-muted hover:text-cyan-security transition-colors">The Bridge</a>
+				<a href="#node" class="text-text-muted hover:text-cyan-security transition-colors">The Node</a>
+				<a href="#yield" class="text-text-muted hover:text-cyan-security transition-colors">The Yield</a>
+				<a href="#code" class="text-text-muted hover:text-cyan-security transition-colors">The Code</a>
+				<a href="#drop" class="text-text-muted hover:text-cyan-security transition-colors">The Drop</a>
 			</nav>
 		</div>
 	</header>
 
-	<main class="flex-grow container mx-auto p-4 py-8">
+	<main class="flex-grow container mx-auto px-4 py-8 pt-24">
 		<slot />
 	</main>
 
-	<footer class="border-t border-gray-800 p-8 mt-12 text-sm text-gray-500">
+	<footer class="border-t border-border p-8 mt-12 text-sm text-text-muted">
 		<div class="container mx-auto text-center space-y-4">
 			<p>
 				Gate Z is an independent educational platform and media outlet focused on Zero-Knowledge technology.
